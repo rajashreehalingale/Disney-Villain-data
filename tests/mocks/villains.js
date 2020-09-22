@@ -1,4 +1,4 @@
-const villains = [{
+const villainList = [{
   name: 'Captain Hook',
   movie: 'Peter Pan',
   slug: 'captain-hook',
@@ -72,4 +72,9 @@ const villains = [{
   slug: 'ursula',
 }]
 
-module.exports = villains
+const singleVillain = villainList[0]
+
+module.exports = {
+  villainList,
+  singleVillain
+}
